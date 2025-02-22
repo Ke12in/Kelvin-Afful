@@ -147,7 +147,7 @@ nav ul li a {
    background-color: #0fbfbf; 
 
 }
-.control{
+#control{
     display:flex;
     flex-display:column;
     cursor:pointer;
