@@ -147,7 +147,10 @@ nav ul li a {
    background-color: #0fbfbf; 
 
 }
-
+.btn2{
+    display:flex;
+    flex-display:column;
+}
 footer {
   background-color: #fefefe;
   text-align: center;
