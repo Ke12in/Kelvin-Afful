@@ -50,7 +50,8 @@
                      Kelvin is determined to utilize his technological skills to simplify processes and is deeply devoted to solving problems.
                 </p>
         <section id="contact">
-            <form>
+           <form method="POST" action="mailto:kelvinpaa135@gmail.com" enctype="multipart/form-data">
+    <!-- Form content goes here -->
             <h3>*****CONTACT US NOW.*****</h3>
             <b>
             <label for="firstname">Firstname</label>
@@ -207,59 +208,19 @@
     <option>Zambia</option>
     <option>Zimbabwe</option>
             </select>
-        </p>
-        <label for="Industry">Industry</label><select>
-            <option>            </option>
-                  <option>System Analyst</option>
-                  <option>Database Administrator</option>
-                  <option>Web/Multimedia Developer</option>
-                  <option>Network Adminstrator </option>
-                  <option>Software developer</option>
-                </select>
-                <p></p>
-                <label for="Profession">Profession</label>
-                <select>
-                  <option>       </option>
-                  <option>Professor</option>
-                  <option>Senior Lecturer</option>
-                  <option>Lecturer </option>
-                  <option>Senior Researcher</option>
-                  <option>Student</option>
-               </select>
-               <p></p>
-               <label for="ID">Identification Card</label>
-            <select>
-                        <option>          </option>
-                        <option>Ghana ID Card</option>
-                        <option>Voter's ID Card</option>
-                        <option>Health insurance ID Card</option>
-                        <option>Passport Card</option>
-                        </select>
-                      </br><br>
-        <label for="Email">E-mail</label>
-        <input placeholder="Enter E-Mail..." name="E-mail" required>
-    </p>
-    <label for="Phone">Phone</label>
-    <input placeholder="Enter Phone Number..." name="Number" required>
-    </p>
-    <label for="Username">Username</label>
-    <input placeholder="Enter Username..." name="Username" required>
-    <P>
-        <label for="Password">Password</label>
-        <input type="password">
-    </P>
-    <P>
-        <label for="Confirm Password">Confirm Password</label>
-        <input type="password">
-    </P>
-    Please Attach your resume<br/>
-    <input type="file" />
-</p>
+       
+    <div class="control">
+                Suggestion:
+                <textarea rows="7" cols="30" name="comment">
+                </textarea>
+            </div>
     <input type="checkbox">I agree to the Terms of Use.
     </b>
     <br>
     <div>
-        <button>Submit</button>
+          <div class="control">
+                <input type="submit" value="Submit" />
+            </div>
     <button class="btn2">Reset</button>
     </div>
             </form>
