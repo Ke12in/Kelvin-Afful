@@ -150,7 +150,7 @@ nav ul li a {
 .control{
     display:flex;
     flex-display:column;
-    curser:pointer;
+    cursor:pointer;
 }
 footer {
   background-color: #fefefe;
